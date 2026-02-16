@@ -1,0 +1,24 @@
+{
+  "name": "cassidoo",
+  "version": "1.0.0",
+  "description": "From https://buttondown.com/cassidoo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danieldevlewis/cassdio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/danieldevlewis/cassdio/issues"
+  },
+  "homepage": "https://github.com/danieldevlewis/cassdio#readme",
+  "dependencies": {
+    "@types/node": "^25.2.3"
+  }
+}
