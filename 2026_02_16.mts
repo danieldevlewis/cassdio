@@ -7,7 +7,7 @@ import test from "node:test";
 import assert from "node:assert";
 
 function zoom(input: number[][], size: number): number[][] {
-  const result = [];
+  const result: number[][] = [];
   for (let y = 0; y < input.length * size; y += 1) {
     result[y] = [];
     for (let x = 0; x < input[0].length * size; x += 1) {
