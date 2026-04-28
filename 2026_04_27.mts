@@ -4,6 +4,11 @@
 // A "broken region" is a group of connected 0s (connected horizontally or vertically).
 // Find the minimum number of tiles you need to repair to ensure no broken region has an area larger than k.
 
+// Note: on reflection this this a pretty inefficient way of doing this
+// A better method would be to count the connections to other holes and patches for each hole
+// Then you if you repair edge holes with the most joining holes that should give
+// you the optimum solution (or some variation of that plan).
+
 import test from "node:test";
 import assert from "node:assert";
 
